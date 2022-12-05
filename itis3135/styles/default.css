@@ -1,3 +1,38 @@
-body,header,footer{
-    background-color:B79492;
+body { 
+    margin: 25px;
+    background-color: #B79492;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
 }
+header {
+    text-align: center;
+    background-color: #3B5249;
+    width: 100%;
+}
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #A4B494;
+  }
+  
+  h2 {
+      color: #A4B494;
+  }
+  
+  /* Applies using id="pID" */
+  
+  h3 {
+      color: #9E2A2B;
+  }
+  
+  h4 {
+      color: white;
+  }
+  
+  h5 {
+      color: #9E2A2B;
+  }
+  p {
+      color: #540B0E;
+  }
