@@ -81,6 +81,8 @@ h1 {
     position: fixed;
     bottom: 0;
     width: 100%;
+    left:0;
+    z-index: 999;
   }
   .fnavbar a {
     float: left;
@@ -94,8 +96,8 @@ h1 {
   .fnavbar a:hover {
   background-color: #ddd;
   color: black;
-}
-.fnavbar a.active {
+  }
+  .fnavbar a.active {
     background-color: #04AA6D;
     color: white;
   }
@@ -105,6 +107,9 @@ h1 {
     position: fixed;
     top: 0;
     width: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
   }
   .hnavbar a {
     float: left;
@@ -118,8 +123,8 @@ h1 {
   .hnavbar a:hover {
   background-color: #ddd;
   color: black;
-}
-.hnavbar a.active {
+  }
+  .hnavbar a.active {
     background-color: #04AA6D;
     color: white;
   }
