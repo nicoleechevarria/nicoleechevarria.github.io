@@ -75,6 +75,51 @@ h1 {
     opacity: 50%;
   }
 
-  .nav{
-      
+  .fnavbar {
+    background-color: #540B0E;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .fnavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 16px;
+  }
+  .fnavbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.fnavbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .hnavbar {
+    background-color: #540B0E;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .hnavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 16px;
+  }
+  .hnavbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.hnavbar a.active {
+    background-color: #04AA6D;
+    color: white;
   }
