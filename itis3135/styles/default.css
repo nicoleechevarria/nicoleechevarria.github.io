@@ -13,29 +13,86 @@ background-color: #3B5249;
 header {
     text-align: center;
     width: 100%;
+    background-color: #3B5249;
 }
 h1 {
     text-align: center;
     font-size: 30px;
     font-weight: normal;
-    margin-top: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
     color: #A4B494;
-  }
+    font-family: Courier, sans-serif;
+}
 
-  h2 {
+h2 {
+    margin-top: 75px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     margin-top: 10px;
     color: #540B0E;
-  }
-  h3 {
+}
+h3 {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
     color: #540B0E;
-  }
+}
+
+  /* header */
+  header h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    color: #A4B494;
+    font-family: Courier, sans-serif;
+}
+  .hnavbar nav{
+    background-color: #540B0E;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    top: 20;
+    margin: 10px;
+    padding: 10px;
+    font-family: Courier, sans-serif;
+    justify-content: space-evenly;
+    font-size: large;
+}
+  .hnavbar nav ul{
+    width:90%;
+    height: 100%;
+    margin: auto;
+    list-style: none;
+}
+  .hnavbar nav ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 24px 1vw;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: relative;
+    text-decoration: none;
+}
+.hnavbar nav ul li:hover {
+    color: #B79492;
+    box-shadow: inset 0 5px white;
+}
+.hnavbar a.active {
+    color: white;
+}
+  /* header*/
+
   /* table activity */
   table {
     border: 2px solid;
@@ -48,70 +105,27 @@ h1 {
     border-color: white;
     font-family: Courier, sans-serif;
     margin: auto;
-  }
-  tr.dhead{
+}
+tr.dhead{
     background-color: #540B0E;
     color: black;
     opacity: 75%
-  }
-  th, td {
+}
+th, td {
     border: 1px solid;
     padding: 15px;
     text-align: left;
-  }
-  tr.d0 td {
+}
+tr.d0 td {
     background-color: #9E2A2B;
     color: black;
     font-family: Courier, sans-serif;
     opacity: 50%;
-  }
-  tr.d1 td {
+}
+tr.d1 td {
     background-color: #ffffff;
     color: black;
     font-family: Courier, sans-serif;
     opacity: 50%;
-  }
+}
   /* table activity */
-
-  .hnavbar nav{
-    background-color: #540B0E;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    font-family: Courier, sans-serif;
-  }
-  .hnavbar nav ul{
-    width:90%;
-    height: 100%;
-    margin: 0 auto;
-    list-style: none;
-    transition: all 0.66s ease;
-  }
-  .hnavbar nav ul li{
-    width: 25%;
-    float: left;
-    text-align: center;
-    color: #f2f2f2;
-    padding: 24px 1vw;
-    font-size: min(max(2vw, 20px), 3vw);
-    font-weight: 100px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    position: relative;
-    text-decoration: none;
-    text-color: #A4B494;
-  }
-  .hnavbar nav ul li:hover {
-    color: #B79492;
-    box-shadow: inset 0 5px white;
-  }
-  .hnavbar a.active {
-    color: white;
-  }
-  
