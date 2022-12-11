@@ -125,7 +125,7 @@ h4{
     font-family: Courier, sans-serif;
     color: #B79492;
 }
-.fnavbar nav ul li a:hover {
+.fnavbar nav ul li a:visited {
     color: white;
 }
 .fnavbar nav ul li a:hover {
