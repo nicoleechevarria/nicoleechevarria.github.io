@@ -23,7 +23,6 @@ h1 {
     position: fixed;
     top: 0;
     color: #A4B494;
-    font-family: Courier, sans-serif;
 }
 
 h2 {
@@ -43,7 +42,7 @@ h3 {
 }
 
   /* header */
-  header h1 {
+  .headerh1 {
     text-align: center;
     font-size: 30px;
     font-weight: normal;
@@ -51,7 +50,6 @@ h3 {
     position: fixed;
     top: 0;
     color: #A4B494;
-    font-family: Courier, sans-serif;
 }
   .hnavbar nav{
     background-color: #540B0E;
