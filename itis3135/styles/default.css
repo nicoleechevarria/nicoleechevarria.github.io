@@ -136,7 +136,7 @@ h4{
   /* footer*/
 
   /* table activity */
-  table {
+table {
     border: 2px solid;
     width: 50%; 
     display: table;
@@ -147,6 +147,9 @@ h4{
     border-color: white;
     font-family: Courier, sans-serif;
     margin: auto;
+}
+.tables_data{
+    text-align:center;
 }
 tr.dhead{
     background-color: #540B0E;
