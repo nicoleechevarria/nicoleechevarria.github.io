@@ -1,7 +1,7 @@
   body { 
     margin: 25px;
     background-color: #B79492;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Courier, sans-serif;
     font-size: 14px;
 }
 .header {
@@ -13,16 +13,23 @@ background-color: #3B5249;
 header {
     text-align: center;
     width: 100%;
+    height: 70px;
     background-color: #3B5249;
+}
+footer{
+  text-align: center;
+  width: 100%;
+  background-color: #540B0E;
 }
 h1 {
     text-align: center;
     font-size: 30px;
     font-weight: normal;
     padding: 10px;
-    position: fixed;
-    top: 0;
+    position: relative;
+    top: 20px;
     color: #A4B494;
+    font-family: Courier, sans-serif;
 }
 
 h2 {
@@ -37,59 +44,87 @@ h3 {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
-    color: #540B0E;
+    color: #B79492;
+    font-family: Courier, sans-serif;
+    position: sticky;
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    left: 5px;
 }
 
   /* header */
-  .headerh1 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: normal;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    color: #A4B494;
-}
   .hnavbar nav{
     background-color: #540B0E;
     position: fixed;
     width: 100%;
     height: 50px;
     left: 0;
-    top: 20;
-    margin: 10px;
-    padding: 10px;
-    font-family: Courier, sans-serif;
+    top:0;
     justify-content: space-evenly;
     font-size: large;
 }
   .hnavbar nav ul{
-    width:90%;
-    height: 100%;
-    margin: auto;
+    margin-top: 10;
+    height: 40px;
     list-style: none;
 }
   .hnavbar nav ul li{
-    width: 25%;
-    float: left;
+    width: 32%;
     text-align: center;
     color: #f2f2f2;
-    padding: 24px 1vw;
+    float: left;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.5s ease;
     position: relative;
     text-decoration: none;
+    font-family: Courier, sans-serif;
+    color: #B79492;
 }
 .hnavbar nav ul li:hover {
-    color: #B79492;
-    box-shadow: inset 0 5px white;
-}
-.hnavbar a.active {
-    color: white;
+    color: gray;
 }
   /* header*/
+
+  /* footer */
+  .fnavbar nav{
+    background-color: #540B0E;
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    justify-content: space-evenly;
+    font-size: large;
+    padding: 5px;
+}
+  .fnavbar nav ul{ 
+    list-style: none;
+}
+  .fnavbar nav ul li{
+    width: 16%;
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: sticky;
+    text-decoration: none;
+    font-family: Courier, sans-serif;
+    color: #B79492;
+}
+.fnavbar nav ul li:hover {
+    color: gray;
+}
+.validation{
+  bottom: 0;
+  background-color: #540B0E;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  padding: 5px;
+}
+  /* footer*/
 
   /* table activity */
   table {
@@ -109,6 +144,11 @@ tr.dhead{
     color: black;
     opacity: 75%
 }
+tr.dhead2{
+  background-color: #3B5249;
+  color: black;
+  opacity: 75%
+}
 th, td {
     border: 1px solid;
     padding: 15px;
@@ -125,5 +165,17 @@ tr.d1 td {
     color: black;
     font-family: Courier, sans-serif;
     opacity: 50%;
+}
+tr.d2 td {
+  background-color: #A4B494;
+  color: black;
+  font-family: Courier, sans-serif;
+  opacity: 50%;
+}
+tr.d3 td {
+  background-color: #ffffff;
+  color: black;
+  font-family: Courier, sans-serif;
+  opacity: 50%;
 }
   /* table activity */
