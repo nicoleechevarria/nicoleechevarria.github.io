@@ -10,6 +10,7 @@
 <body>
     <div data-include="components/header.html"></div>
   <main>
+      <article>
         <h2>Contact Me!</h2>
         <p class="form-p">I'd love to hear from you, fill out this form and I'll get back to you ASAP!</p>
               <form action="https://httpbin.org/get" method="get">
@@ -29,7 +30,7 @@
                   </p>
                   <p>
                   <label for="phone">Phone Number:</label>
-                  <input type="tel" name="phone" id="phone" placeholder="Ex: 5160078700" pattern="[-9]{3}[0-9]{3}[0-9]{4}" required>
+                  <input type="tel" name="phone" id="phone" placeholder="Ex: 5160078700" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                   </p>
                   <p>
                       <label for="service">Service Requesting:</label>
@@ -81,6 +82,6 @@
           </article>
   </main>
     <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
   </body>
-  <script src="scripts/HTMLInclude.min.js"></script>
 </html>

@@ -216,13 +216,4 @@ button{
     background-color: #A4B494;
     color: #eeeeee;
 }
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-    background-color: );
-    color: ;
-    display: block;
-    border-color: gray;
-    min-width: 300px;
-}
   /*forms activity*/
