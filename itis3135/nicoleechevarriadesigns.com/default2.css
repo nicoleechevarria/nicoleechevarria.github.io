@@ -1,14 +1,14 @@
 body { 
     margin: 25px;
-    background-color: #B79492;
+    background-color: #A4B494;
     font-family:Courier, sans-serif;
     font-size: 14px;
 }
 .header {
-background-color: #3B5249;
+background-color: #540B0E;
 }
 .main {
-    color: #540B0E;
+    color: #3B5249;
 }
 header {
     text-align: center;
