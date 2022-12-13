@@ -1,18 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="header">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="itis3135/styles/default.css">
-    <title>Nicole Echevarria ^ ITIS 3135-091 ^ Nobel Eel</title>
+    <title>Nicole Echevarria 🦌 ITIS 3135-091 🦌 Noble Elk 🦌 About Me</title>
+    <style>body { 
+      margin: 25px;
+      background-color: #B79492;
+      font-family:Courier, sans-serif;
+      font-size: 14px;
+  }
+  .header {
+  background-color: #3B5249;
+  }
+  .main {
+      color: #540B0E;
+  }
+  header {
+      text-align: center;
+      width: 100%;
+      height: 70px;
+      background-color: #3B5249;
+  }
+  footer{
+    text-align: center;
+    width: 100%;
+    background-color: #540B0E;
+  }
+  .spacer{
+    height: 30px;
+    color:#B79492;
+  }
+  h1 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: normal;
+      padding: 10px;
+      position: relative;
+      top: 20px;
+      color: #A4B494;
+      font-family: Courier, sans-serif;
+  }
+  
+  h2 {
+      margin-top: 75px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #540B0E;
+  }
+  h3{
+    text-align:center;
+    font-family: Courier, sans-serif;
+    color: #540B0E;
+  }
+  h6 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #B79492;
+    font-family: Courier, sans-serif;
+    position: sticky;
+    font-size: 15px;
+    width: 100%;
+    left: 5px;
+  }
+  
+    /* header */
+    .hnavbar nav{
+      background-color: #540B0E;
+      position: fixed;
+      width: 100%;
+      height: 50px;
+      left: 0;
+      top:0;
+      justify-content: space-evenly;
+      font-size: large;
+  }
+    .hnavbar nav ul{
+      margin-top: 10px;
+      height: 40px;
+      list-style: none;
+  }
+    .hnavbar nav ul li{
+      width: 32%;
+      text-align: center;
+      color: #f2f2f2;
+      float: left;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      position: relative;
+      text-decoration: none;
+      font-family: Courier, sans-serif;
+      color: #B79492;
+  }
+  .hnavbar nav ul li:hover {
+      color: #B79492;
+  }
+  .hnavbar nav ul li:visited {
+    color: white;
+  }
+    /* header*/
+  
+    /* footer */
+    .fnavbar nav{
+      background-color: #540B0E;
+      position: sticky;
+      width: 100%;
+      height: 50px;
+      left: 0;
+      justify-content: space-evenly;
+      font-size: large;
+      padding: 5px;
+  }
+    .fnavbar nav ul{ 
+      list-style: none;
+  }
+    .fnavbar nav ul li{
+      width: 16%;
+      text-align: center;
+      float: left;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      position: sticky;
+      text-decoration: none;
+      font-family: Courier, sans-serif;
+      color: #B79492;
+  }
+  a:visited {
+      color: white;
+  }
+  a:hover {
+    box-shadow: 12px 12px 2px 1px #B79492;
+  }
+  .validation{
+    bottom: 0;
+    background-color: #540B0E;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    padding: 5px;
+  }
+    /* footer*/</style>
 </head>
 <body>
-    <header><div data-include="components/header.html"></div></header>
-    <main>
-        <h2>Root Website</h2>
-        <p>I am a proud Peruvian and I enjoy developing!</p>
-    </main>
-    <footer><div data-include="components/footer.html"></div></footer>
-</body>
+  <header>
+    <div class="hnavbar">
+        <nav>
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="introduction.html">About Me</a></li>
+                    <li><a href="assignments.html">Assignments</a></li>
+            </ul>
+        </nav> 
+    </div>
+    <h1 class="headerh1">Nicole Echevarria 🦌 ITIS 3135-091 🦌 Noble Elk</h1>
+</header>
+  <main>
+        <h2>You've reached my Root!</h2>
+  </main>
+  <div class="fnavbar">
+    <div>
+    <nav>
+        <ul>
+            <li><a href="https://nicoleechevarria.github.io/">Github</a></li>
+            <li><a href="https://github.com/nicoleechevarria/nicoleechevarria.github.io/tree/main/itis3135">Github Repository</a></li>
+            <li><a href="https://webpages.charlotte.edu/nechevar/">UNCC Webpage</a></li>
+            <li><a href="https://www.freecodecamp.org/Nicoledechevarria">FreeCodeCamp</a></li>
+            <li><a href="https://www.codecademy.com/profiles/nicoled.echevarria">CodeAcademy</a></li>
+            <li><a href="https://www.linkedin.com/in/nicole-echevarria-79ab6622a/">LinkedIn</a></li>
+        </ul>
+    </nav>
+    </div>  
+    <h6><a href="nicoleechevarriadesigns.com">Designed by Nicole Echevarria Designs.</a></h6>
+    <div class="validation">
+    <a href="https://validator.w3.org/check?uri=referer" id = "validation_link_html">
+        <img src="images/button-validation-html5.png" width="88" height="31" alt="Validate webpage HTML.">
+    </a>
+    
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" id = "validation_link_css">
+        <img src="images/button-validation-css.png" width="88" height="31" alt="Validate webpage CSS.">
+    </a>
+    </div>
+</div>  <script src="scripts/HTMLInclude.min.js"></script>
+  </body>
 </html>
