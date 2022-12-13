@@ -196,3 +196,33 @@ tr.d3 td {
   opacity: 50%;
 }
   /* table activity */
+
+  /*forms activity*/
+ .mainForm {
+    margin-left: auto;
+    margin-right: auto;
+}
+ .mainField{
+    background-color: #3B5249;
+    text-align: center;
+    width:fit-content;
+    margin: auto;
+    color: #A4B494;
+}
+.form-p{
+  text-align: center;
+}
+button{
+    background-color: #A4B494;
+    color: #eeeeee;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background-color: );
+    color: ;
+    display: block;
+    border-color: gray;
+    min-width: 300px;
+}
+  /*forms activity*/
