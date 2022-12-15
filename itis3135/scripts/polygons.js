@@ -8,7 +8,21 @@ const polygons = () =>
             alert(output)
         }
 }
-
+const validateEntry = (number) => 
+{
+    if (isNaN(number)) 
+    {
+        alert("Thats not a number silly")
+        return false
+    } else if (number > 10 || number < -10) 
+    {
+        alert("Thats not within 1 to 10")
+        return false
+    } else 
+    {
+        return true
+    }
+}
 const getShape = (entered_number) => 
 {
     switch (entered_number) 
@@ -49,14 +63,4 @@ const getShape = (entered_number) =>
     }
     return polygon;
 }
-const validateEntry = (number) => {
-    if (isNaN(number)) {
-        alert("Thats not a number silly")
-        return false
-    } else if (number > 10 || number < -10) {
-        alert("Thats not within 1 to 10")
-        return false
-    } else {
-        return true
-    }
-}
+
