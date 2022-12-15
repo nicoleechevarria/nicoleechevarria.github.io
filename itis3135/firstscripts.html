@@ -6,13 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicole Echevarria 🦌 ITIS 3135-091 🦌 Noble Elk 🦌 About Me</title>
     <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <script src="scripts/defaultscripts.js"></script>
 </head>
-<body>
+<body onload="getTodaysDate()">  
   <header>
     <div data-include="components/header.html"></div>
   </header>
   <main>
-        <h2>This is my Index</h2>
+        <h2>This is my First Scripts</h2>
+        <h3 id="time">The time is...</h3>
+        <h3 id="greeting">Enter your information for a personalized greeting</h3>
+
+        <form>
+          <fieldset>
+            <label for="fullName">Enter your name:
+              <input id="fullName" name="fullName" type="text" placeholder="Gianluca Lapadula" autocomplete="off" required>
+            </label>
+            <label for="feeling">How ya feeling?
+              <input id="feeling" name="feeling" type="text" placeholder="Amazing!" autocomplete="off"
+                required>
+            </label>
+            <input type="button" value="Submit" id="submit" onclick="promptUser()">
+          </fieldset>
+          <fieldset>
+              <button type="button" onclick="myAlert()">Click for ALERT</button>
+          </fieldset>
+
+          <fieldset>
+            <form id="elkAge" class="elkAge">
+                <div class="formBox">
+                    <label>How old is your Elk?</label><br>
+                    <button class = "button" type = "submit" onclick = "elkAge(); return false;">Generate Age</button>
+                    <h3 id = "hexValue">Waiting for input...</h3>
+                </div>
+            </form>
+          </fieldset>
+          <fieldset>
+            <div class="scriptPrompt">
+            <form>
+                <label>Enter two numbers for the sum:</label><br>
+                <input type = "text" id = "number1"><br> 
+                <input type = "text" id = "number2"><br>                  
+                <button class = "button" type = "submit" onclick = "sumNumber(); return false;">Calculate</button>
+                <h3 id = "sumResponse">
+                    Waiting for input...
+                </h3>
+            </form>
+            </div>
+          </fieldset>
+        </form>
   </main>
   <footer><div data-include="components/footer.html"></div></footer>
   </body>
