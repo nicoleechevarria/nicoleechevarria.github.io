@@ -80,7 +80,7 @@ h6 {
   .hnavbar nav ul li{
     width: 20%;
     text-align: center;
-    color: #ccb7ae;
+    color: #d6cfcb;
     float: left;
     text-transform: uppercase;
     cursor: pointer;
@@ -90,11 +90,11 @@ h6 {
     font-family: Courier, sans-serif;
     color: #706677;
 }
-.hnavbar nav ul li:hover {
+a:hover {
     color: #706677;
 }
-.hnavbar nav ul li:visited {
-  color: #ccb7ae;
+a:visited {
+  color: #d6cfcb;
 }
   /* header*/
 
