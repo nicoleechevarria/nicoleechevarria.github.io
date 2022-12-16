@@ -5,16 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicole Echevarria 🦌 ITIS 3135-091 🦌 Noble Elk 🦌 Midterm</title>
-    <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <style>  
+    body { 
+        margin: 30px;
+        background-color: #D7D9CE;
+        font-family:Courier, sans-serif;
+        font-size: 14px;
+    }
+    main {
+        color: #13505B;
+    }
+    header {
+        text-align: center;
+        width: 100%;
+        height: 70px;
+        background-color: #13505B;
+        align-items: center;
+    }
+    footer{
+      text-align: center;
+      width: 100%;
+      background-color: #119DA4;
+    }
+    .spacer{
+      height: 30px;
+      color:#0C7489;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: normal;
+        padding: 10px;
+        position: relative;
+        top: 20px;
+        color: #119DA4;
+        font-family: Courier, sans-serif;
+    }
+    
+    h2 {
+        margin-top: 75px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #13505B;
+    }
+    h3{
+      text-align:center;
+      font-family: Courier, sans-serif;
+      color: #13505B;
+    }
+    h6 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #0C7489;
+      font-family: Courier, sans-serif;
+      position: sticky;
+      font-size: 15px;
+      width: 100%;
+      left: 5px;
+    }
+    
+      /* header */
+      .hnavbar nav{
+        background-color: #119DA4;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        left: 0;
+        top:0;
+        justify-content: space-evenly;
+        font-size: large;
+    }
+      .hnavbar nav ul{
+        margin-top: 10px;
+        height: 40px;
+        list-style: none;
+    }
+      .hnavbar nav ul li{
+        width: 16%;
+        text-align: center;
+        color: #f2f2f2;
+        float: left;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        position: relative;
+        text-decoration: none;
+        font-family: Courier, sans-serif;
+        color: #0C7489;
+    }
+    .hnavbar nav ul li:hover {
+        color: #0C7489;
+    }
+    .hnavbar nav ul li:visited {
+      color: white;
+    }
+    
+      /* header*/
+    img{
+        border-radius: 9px;
+        left: 50%;
+    }
+      </style>
+      <script>
+            // Passes through different divs with target class to set to hidden or not.
+            let pageName = "";
+            function show(shown) {
+              pageNameArray = document.getElementsByClassName("target");
+              for (let i = 0; i < pageNameArray.length; i++) {
+                  if(pageNameArray[i].id == shown){
+                       pageNameArray[i].style.display = "inherit";
+                  }
+                  else {
+                      pageNameArray[i].style.display = "none";
+                  }
+                }
+            }
+      </script>
 </head>
-<body>
+<body onload="show('home');">
     <header>
-        <div class="navbar">
+        <div class="hnavbar">
             <nav>
                 <ul>
                     <li onclick="show('home');"><a href="#" class="green">Home</a></li>
                     <li onclick="show('about');"><a href="#" class="blue">About</a></li>
-                    <li onclick="show('when');"><a href="#" class="green">Origins</a></li>
+                    <li onclick="show('when');"><a href="#" class="green">When</a></li>
                     <li onclick="show('where');"><a href="#" class="blue">Where</a></li>
                     <li onclick="show('why');"><a href="#" class="green">Why</a></li> 
                     <li onclick="show('how');"><a href="#" class="blue">How</a></li> 
@@ -34,11 +152,11 @@
             <figcaption>One of the first cakes I've made and was proud of. ft.my old betta fish</figcaption>
             <section class="bakingSection">
                 <h3>What are some things I've baked before?</h3>
-                <p>After a baking camp at Johnson & Wales, I've experimented beyond cakes such as:</p>
+                <p>After years of baking Oatmeal Raisin cookies with my sister, as soon as she moved out, I explored everything such as:</p>
                 <ul>
                     <li>Cake Pops</li>
                     <li>Bread and Rolls</li>
-                    <li>Petite Fours</li>
+                    <li>Cookies</li>
                     <li>Birthday Cakes</li>
                 </ul>
             </section>
@@ -52,44 +170,65 @@
             <section class="bakingSection">
                 <h3>My Materials</h3>
                 <p>Over the years I've gotten so many trinkets and decorating tools that I have bits of my baking stuff everywhere. It got to the point where I needed my own shelf in the pantry. My brother got me a stand mixer in 2018 but before that I used a hand mixer (builds the muscle).</p>
-                <div class="center"><img src="images/" alt="Card Collection" width="400"></div>
+                <div class="center"><img src="images/cake-2.jpeg" alt="Card Collection" width="400"></div>
             </section>
         </section>
         <!-- When Page -->
         <section id="when" class="target">
-            <h2>When Can You Play?</h2>
+            <h2>When have I baked?</h2>
             <section class="bakingSection">
-                <h3>Regular Card Games</h3>
-                <p>Well here is the beauty of card games...THERE IS NO RIGHT TIME! Card games can be played anytime of the year except for the obvious snowy day outside. But in theory it is still entierly possible to do this. I would just recommend doing it in a warmer dry environment then on a snowy or rainy day outside.</p>
-                <img class="center" src="images/people_playing_cards.jpeg" alt="Family playing cards Inside" width="500">
+                <h3>Baby Showers</h3>
+                <p>For both my brother and sisters baby shower, I've helped decorate their table with lots of treats.</p>
+                <img class="center" src="images/baby-shower-1.jpeg" alt="Baby Shower Pictures" height="500">
+                <img class="center" src="images/baby-shower-2.jpeg" alt="Baby Shower Pictures" height="500">
+                <p>The themes were the Yankees and Twinkle Twinkle Little Star.</p>
+                <img class="center" src="images/baby-shower-3.jpeg" alt="Baby Shower Pictures" width="500">
+                <img class="center" src="images/baby-shower-4.jpeg" alt="Baby Shower Pictures" height="400">
             </section>
             <section class="bakingSection">
-                <h3>Online Card Games</h3>
-                <p>Just like with regular card games you can play this whenever! The only limitation is charge of your device and your willingness to lose hours of time inside these games.</p>
-                <img class="center" src="images/online_card_game.png" alt="Card Game Online" width="500">
+                <h3>Birthdays</h3>
+                <p>For both my close family such as my parents and siblings and outer family like my cousins, I've made cakes and desserts for birthday parties or just for them to feel special.</p>
+                <img class="center" src="images/cake-3.PNG" alt="Dads Birthday Cake" height="500">
+                <img class="center" src="images/cake-4.jpeg" alt="A somewhat successful cake for my cousin" height="500">
             </section>
             </section>
             <!-- Where Page -->
             <section id="where" class="target">
-                <h2>Where Can You Play Cards?</h2>
+                <h2>Where have I baked?</h2>
                 <section class="bakingSection">
-                    <h3>Are fun with cards limited?</h3>
-                    <p>Cards quite honestly can be played anywhere! That is one of the amazing aspects about it. When it really comes down to it, the only limitation to the excitement card games offer is one's willingness to play card games. You can do this in your living room with the TV on, in the kitchen while you are cooking, or even in the walmart on one of their tables!</p>
-                    <img src="images/old-men-cards.jpeg">
+                    <h3>My Brothers Old Apartment</h3>
+                    <p>My brother had an island in his apartment and I spent hours making cakes and cupcakes for New Years when I was staying with them. It was honestly a lot of fun and felt alot more like a baking show than at my kitchen at home.</p>
+                    <img src="images/cake-5.jpeg" alt="Cake for New Years" width="500">
+                    <img src="images/cupcakes-1.jpeg" alt="Cupcakes for New Years" width="500">
                 </section>
-                <section class="cardSection">
-                    <h3>What about online card games?</h3>
-                    <p>These are always available so as long as you have it either downloaded or have internet, then you can virtually(pun intended) play it anywhere! At this point going through all of this I am sure that you have no reason not to play!</p>
+                <section class="bakingSection">
+                    <h3>My Uncles Tiny Kitchen</h3>
+                    <p>I once promised to make my uncle Alfajores, a Peruvian sandwich cookie, and ended up using a glass bottle as a rolling pin and a pizza tray to bake them on.</p>
                 </section>
             </section>
             <!-- Why Page -->
             <section id="why" class="target">
-                <h2>Why Do I Like Cards?</h2>
-                <section class="cardSection">
-                    <h3>Why Card Games?</h3>
-                    <p>Card Games were always, as weird as it sounds, an escape from reality for myself. I could use this as a way to just take a break and do something with my grandpa that was fun. It was something that I looked forward to after getting back from class. This only became more important when I found groups of friends that loved card games too and we would hold these "tournaments" where we would compete with each other. In short it holds a lot of sentimental value becuase of all the tough times it has gotten me through.</p>
-                    <img src="images/good-friends-playing-cards-game_23-2147718822.jpg" alt="Friends Playing Card Games" width="400">
-                    <p>Also incase you need some more convincing, here is a link to a website that tells you about all the good that comes from playing card games. <a href="https://www.medindia.net/news/top-benefits-of-playing-card-games-208193-1.htm#:~:text=In%20addition%20to%20boosting%20memory,critical%20and%20strategic%20thinking%20skills." target="_blank">Click Here</a></p>
+                <h2>Why have I baked?</h2>
+                <section class="bakingSection">
+                    <h3>Culture</h3>
+                    <p>Both of my grandmas were bakers themselves and made traditional Peruvian desserts, sadly one of them passed away and whenever I bake a batch of Alfajores, I think of her.</p>
+                    <img src="images/alfajores.jpeg" alt="Alfajores" width="400">
+                    <h3>Baking Camps</h3>
+                    <p>I loved baking so much I wanted to know how it would feel on a baking show, so I tried the next best thing- a summer camp at Johnson & Wales.It was honestly a magical week and I'll never forget it.</p>
+                    <img src="images/baking-camp-1.JPG" alt="Pictures from baking camp" height="400">
+                    <img src="images/baking-camp-2.JPG" alt="Pictures from baking camp" height="400">
+                    <img src="images/petite-fours.jpeg" alt="Petite Fours" height="400">
+                </section>
+            </section>
+            <section id="how" class="target">
+                <h2>How Can You Bake?</h2>
+                <section class="bakingSection">
+                    <h3>With Love!</h3>
+                    <p>You can bake with friends, for a project, or even a dogs birthday, theres nothing stopping you! Baking is for everyone, all year round.</p>
+                    <img src="images/dog-cake.jpeg" alt="Cupcakes! " width="400">
+                    <p>As you can tell, from places I've baked, you can bake anywhere with a little motivation. All it takes is a recipe, time, and love.</p>
+                    <img src="images/cupcakes-2.JPG" alt="Cupcakes! " width="400">
+                    <p>Good recipes are hard to find however, heres my favorite choclate chip one!<a href="https://www.whisking-away.com/recipes/claire-saffitz-chocolate-chip-cookies" target="_blank">Click Here</a></p>
                 </section>
             </section>
   </main>
