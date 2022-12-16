@@ -90,10 +90,10 @@ h6 {
     font-family: Courier, sans-serif;
     color: #B79492;
 }
-.hnavbar nav ul li:hover {
+a:hover {
     color: #B79492;
 }
-.hnavbar nav ul li:visited {
+a:visited {
   color: white;
 }
   /* header*/
