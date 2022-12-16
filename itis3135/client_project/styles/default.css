@@ -80,7 +80,7 @@ h6 {
   .hnavbar nav ul li{
     width: 20%;
     text-align: center;
-    color: #f2f2f2;
+    color: #ccb7ae;
     float: left;
     text-transform: uppercase;
     cursor: pointer;
@@ -94,7 +94,7 @@ h6 {
     color: #706677;
 }
 .hnavbar nav ul li:visited {
-  color: white;
+  color: #ccb7ae;
 }
   /* header*/
 
@@ -103,7 +103,7 @@ h6 {
   bottom: 0;
   background-color: #A6808C;
   text-align: center;
-  width: 100%;
+  width: 95%;
   position: sticky;
   padding: 5px;
 }
