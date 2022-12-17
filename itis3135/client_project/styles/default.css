@@ -146,7 +146,7 @@ display: flex;
 justify-content:space-between;
 padding: 60px;
 width: 80%;
-margin: 10rem auto e auto;
+margin: 10rem auto auto;
     }
 .section img {
   height: 400px;
@@ -160,16 +160,16 @@ margin: 10rem auto e auto;
   margin-right: auto;
 }
 .mainField{
-  background-color: #3B5249;
+  background-color: #A6808C;
   text-align: center;
   width:fit-content;
   margin: auto;
-  color: #A4B494;
+  color: #565264;
 }
 .form-p{
 text-align: center;
 }
 button{
-  background-color: #A4B494;
+  background-color: #A6808C;
   color: #eeeeee;
 }
