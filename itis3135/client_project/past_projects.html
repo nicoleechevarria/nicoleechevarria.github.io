@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lia's Builds ⚒ Past Projects</title>
     <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="scripts/past_projects.js"></script>
 </head>
 <body>
   <header>
     <div data-include="components/header.html"></div>
   </header>
   <main>
-        <h2>Past Projects</h2>
+        <h2>Past Projects</h2><main>
+            <p class="centerp">Over the years, Lia has created many beautiful houses and landscapes. Take a look and see if you find anything you'd like!</p>
+            <section class="slideshow">
+            <ul id="slider">
+                <li><img src="images/past-projects-1.JPG" alt="" title="A mushroom house on a hill" width=600 height=400></li>
+                <li><img src="images/past-projects-2.JPG" alt="" title="A house, a tree, and a barn" width=600 height=400></li>
+                <li><img src="images/past-projects-3.JPG" alt="" title="The mushroom home at dusk." width=600 height=400></li>
+                <li><img src="images/past-projects-4.png" alt="" title="A wooden mansion hidden in a spruce forest." width=600 height=400></li>
+                <li><img src="images/past-projects-5.png" alt="" title="The moon on earth." width=600 height=400></li>
+            </ul>
+        </section>
+            <p id="id_pager"></p>
+            
+        </main>
   </main>
   <footer><div data-include="components/footer.html"></div></footer>  
   <script src="scripts/HTMLInclude.min.js"></script>
