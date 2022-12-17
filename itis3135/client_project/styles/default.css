@@ -1,5 +1,8 @@
 body { 
-    margin: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right:50px;
     background-color: #D6CFCB;
     font-family:Courier, sans-serif;
     font-size: 14px;
@@ -119,8 +122,11 @@ a:visited {
 
   }
     /*past projects*/
-    img{
-      align-content: center;
+    .home{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
       border-radius: 9px;
     }
     .slideshow{
@@ -129,4 +135,20 @@ a:visited {
     }
     p{
       text-align: center;
+      color: #565264;
     }
+
+    .section{
+display: flex;
+justify-content:space-between;
+padding: 60px;
+width: 80%;
+margin: 10rem auto e auto;
+    }
+.section img {
+  height: 400px;
+}
+.section p{
+  color: #565264;
+  margin-right: 30px;
+}
