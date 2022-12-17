@@ -140,7 +140,12 @@ a:visited {
     img{
       border-radius: 10px;
     }
-
+.contact-image, .process-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
     .section{
 display: flex;
 justify-content:space-between;
@@ -172,4 +177,7 @@ text-align: center;
 button{
   background-color: #A6808C;
   color: #eeeeee;
+}
+.accordion{
+  border-color:#706677;
 }
